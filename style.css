@@ -10,7 +10,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(114 156 183 / 49%);
+    background-color: rgba(151, 148, 148, 0.658);
     border-radius: 20px;
 }
 
@@ -33,14 +33,22 @@ body{
 
 
 
-img{
+img.MABA{
     width: 160px;
     height: 100px;
     border-radius: 15px;
     margin: 4px -13px;
 }
 
-ul{
+img{
+    width: 350px;
+    height: 313px;
+    border-radius: 15px;
+    margin: 4px -13px;
+    
+}
+
+ul.ListaPrincipal{
     list-style: none;
     display: flex;
     margin-right: -15px;
@@ -54,16 +62,79 @@ a{
     text-decoration: none;
 }
 
-ul :hover{
+ul.ListaPrincipal :hover{
     font-size: 30px;
     font-style: oblique;
     font-weight: bold;
 }
+
 
 h1{
     align-items: center; 
     color:white;
     display: flex;
     justify-content: center;
+   
 }
 
+main{
+    margin: 20px 8px;
+    padding: 2px 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(151, 148, 148, 0.644);
+    border-radius: 20px;
+    flex-direction: row-reverse;
+}
+
+.title{
+    align-items: center; 
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 20px 7px;
+}
+
+ul.MisionVision{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: -15px;
+    font-size: 25px;
+}
+
+li.MisionVision{
+    padding: 20px 0;
+    color:white;
+}
+
+p.MisionVision{
+    display:flex;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 20px;
+}
+
+
+p.Inicio{
+    display:flex;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 2px 40px 2px 2px;
+    font-size: 30px;
+  
+}
+
+ul.Inicio{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: -15px;
+    font-size: 30px;
+    padding: 15px;
+    
+}
