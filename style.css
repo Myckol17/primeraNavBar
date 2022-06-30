@@ -17,7 +17,7 @@ header{
 nav{
     margin: 15px -15px;
     padding: 2px 23px;
-    background-color: rgb(158, 37, 37);
+    background-color: rgba(41, 99, 167, 0.884);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,7 +25,7 @@ nav{
 }
 
 body{
-    background-image: url(./image/sonido2.jpg);
+    background-color: black;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,9 +40,17 @@ img.MABA{
     margin: 4px -13px;
 }
 
-img{
+img.ImagIni{
     width: 350px;
     height: 313px;
+    border-radius: 15px;
+    margin: 4px -13px;
+    
+}
+
+img.ImagNos{
+    width: 300px;
+    height: 260px;
     border-radius: 15px;
     margin: 4px -13px;
     
@@ -52,6 +60,10 @@ ul.ListaPrincipal{
     list-style: none;
     display: flex;
     margin-right: -15px;
+    font-size: 25px;
+}
+
+li{
     font-size: 25px;
 }
 
@@ -115,7 +127,7 @@ p.MisionVision{
     display:flex;
     justify-content: space-between;
     text-align: justify;
-    padding: 20px;
+    padding: 0px 40px 0px 0px;
 }
 
 
@@ -138,3 +150,17 @@ ul.Inicio{
     padding: 15px;
     
 }
+
+/*
+@media (max-width: 1199.98px){
+    nav ul li a{
+        font-size: 25px
+    }
+}
+
+@media (max-width: 699.98px){
+    nav ul li a{
+        font-size: 15px
+    }
+}
+*/
