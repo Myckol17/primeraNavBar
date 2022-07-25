@@ -458,6 +458,13 @@ a.buttonIn:hover{
     background-color: rgba(41, 99, 167, 0.884);
 }
 
+
+i.Redes:hover{
+    animation: zooom 1s linear 0s infinite alternate;
+    background-color: rgba(41, 99, 167, 0.884);
+}
+
+
 @keyframes zooom{
     from{
         transform: scale(0.9);
@@ -480,3 +487,4 @@ a.buttonIn:hover{
         transform:  rotate(360grad);
     }
 }
+
