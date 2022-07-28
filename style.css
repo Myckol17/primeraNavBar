@@ -389,6 +389,7 @@ footer{
         left: 0;
     }
 
+    
     .ListaPrincipal{
         display: flex;
         display: block;
@@ -428,17 +429,17 @@ footer{
   
 
     header{
-        width: 100vh;
+        width: 80vh;
     }
 
     main{
-        width: 100vh;
+        width: 80vh;
         list-style: none;
         display: flex;
         flex-direction: column;
         margin-right: -15px;
-        font-size: 15px;
-        justify-content: space-between;
+        font-size: 10px;
+        
     }
 
     h1.title{
@@ -448,7 +449,12 @@ footer{
 
 
     footer{
-        width: 100vh;
+        width: 80vh;
+        
+    }
+
+    footer ul li p.contact{
+        font-size: 15px;
     }
 
 }
